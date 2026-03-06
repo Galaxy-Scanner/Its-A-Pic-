@@ -1,1 +1,1 @@
-"# Its-A-Pic-" 
+So, this are a few remote acces trojans. Be sure you are on the legal side or you will face consequences! The File "By Farexe.jpg" isnt actually a jpg. Its an Trojan too! Be sure that youre in an VM/Virtual Mashine before you download that file. The other need to be editet with any kind of editor. You either need to add your guild id or your bot token and channel id! Have fun guys!
